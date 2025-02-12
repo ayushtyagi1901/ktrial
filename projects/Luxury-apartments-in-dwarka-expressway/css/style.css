@@ -173,6 +173,21 @@ h1 {
     color: #473f39; /* Optional: Set text color */
 }
 
+p {
+    font-family: 'Futura PT Book', sans-serif; /* Fallback to sans-serif if font fails to load */
+    font-size: 16px; /* Adjust size as needed */
+    font-weight: normal; /* Ensure correct weight */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.flex-fill {
+    font-family: 'Futura PT Book', sans-serif; /* Fallback to sans-serif if font fails to load */
+    font-size: 16px; /* Adjust size as needed */
+    font-weight: normal; /* Ensure correct weight */
+    line-height: 1.6;
+}
+
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
